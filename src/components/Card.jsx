@@ -2,13 +2,13 @@ import React from 'react'
 
 const Card = ({ image, title, description }) => {
     return (
-        <div className='flex flex-col md:flex-row gap-4 p-8 md:pl-4 md:pr-8 md:py-4 bg-jade-300 rounded-2xl'>
+        <div className='group flex flex-col md:flex-row gap-4 p-8 md:pl-4 md:pr-8 md:py-4 bg-jade-300 rounded-2xl'>
             <img
                 alt={title}
                 src={image}
                 height={240}
                 width={240}
-                className='m-auto md:m-0'
+                className='m-auto md:m-0 group-hover:-translate-y-1 transition-all duration-300 object-contain'
             />
             <div className='flex flex-col gap-8 my-auto'>
                 <div className='space-y-1'>
