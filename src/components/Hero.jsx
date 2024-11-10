@@ -16,7 +16,6 @@ const Hero = () => {
                 <h2 className="text-5xl font-bold text-jade-200 p-2">One <span className='text-jade-950'>for</span> All</h2>
                 <span className='text-md font-light text-jade-100'>Unlock your hidden potential. Power awaits!</span>
             </div>
-
         </section>
     )
 }
