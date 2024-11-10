@@ -14,11 +14,11 @@ const cards = [
 
 const Content = () => {
     return (
-        <section className='mx-5 py-8 px-6 rounded-lg bg-jade-100 flex flex-col justify-center items-center'>
+        <section className='md:mx-5 py-8 px-6 rounded-lg bg-jade-100 flex flex-col justify-center items-center'>
             <div className='flex flex-col justify-center items-center'>
-                <h2 className='text-3xl font-extrabold text-jade-700 py-2'>Find your <span className='text-jade-950'>quirk</span></h2>
-                <p className='text-sm text-jade-900'>Are you ready to find your true power?</p>
-                <p className='text-sm text-jade-900'>Explore quirky and discover what makes you remarkable.</p>
+                <h2 className='text-3xl md:text-4xl font-extrabold text-jade-700 py-2'>Find your <span className='text-jade-950'>quirk</span></h2>
+                <p className='text-sm md:text-md text-jade-900'>Are you ready to find your true power?</p>
+                <p className='text-sm md:text-md text-jade-900'>Explore quirky and discover what makes you remarkable.</p>
             </div>
             <div className='p-4 space-y-4'>
                 {
