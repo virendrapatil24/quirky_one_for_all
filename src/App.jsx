@@ -1,5 +1,6 @@
 
 import './App.css'
+import Content from './components/Content'
 import Hero from './components/Hero'
 import NavBar from './components/NavBar'
 
@@ -10,10 +11,11 @@ function App() {
       style={{
         background: 'linear-gradient(to bottom, #399A7B 0%, #136362 75%)',
       }}
-      className='h-screen'
+      className='h-full'
     >
       <NavBar />
       <Hero />
+      <Content />
 
     </div>
   )

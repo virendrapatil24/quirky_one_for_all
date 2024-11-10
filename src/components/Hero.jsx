@@ -1,7 +1,6 @@
 import React from 'react'
 import HeroImage from './../assets/heroImage.png'
 
-
 const Hero = () => {
     return (
         <section className='max-w-7xl mx-auto py-12 flex flex-col justify-center items-center'>
